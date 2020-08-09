@@ -1,2 +1,3 @@
 function darkscrystal:removeteams
 function darkscrystal:createteams
+function darkscrystal:boysjointeam
