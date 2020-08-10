@@ -6,7 +6,7 @@
       "entity": "this",
       "predicate": {
         "type": "minecraft:player",
-        "team": "grotton",
+        "team": "grottan",
         "location": {
           "light": {
             "light": {
@@ -21,6 +21,8 @@
       "condition": "minecraft:entity_properties",
       "entity": "this",
       "predicate": {
+        "type": "minecraft:player",
+        "team": "grottan",
         "equipment": {
           "head": {
             "item": "carved_pumpkin"
