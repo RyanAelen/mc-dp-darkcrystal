@@ -1,1 +1,1 @@
-execute as @a unless predicate darkscrystal:isgrottenisbelowlighssevenispumpkinghadon run effect give @s minecraft:blindness 2 20
+execute as @a[team=grottan] unless predicate darkscrystal:isgrottenisbelowlighssevenispumpkinghadon run effect give @s minecraft:blindness 2 20
