@@ -1,0 +1,1 @@
+execute as @a unless predicate darkscrystal:isgrottenisbelowlighssevenispumpkinghadon run effect give @s minecraft:blindness 2 20

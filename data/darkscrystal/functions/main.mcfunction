@@ -1,1 +1,2 @@
 function darkscrystal:updateplayerspeciesscoreboard
+function darkscrystal:blindgrottons
