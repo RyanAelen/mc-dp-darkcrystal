@@ -1,0 +1,21 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "team": "grottan",
+    "location": {
+      "dimension": "minecraft:overworld",
+      "light": {
+        "light": {
+          "min": 0,
+          "max": 7
+        }a
+      }
+    },
+    "equipment": {
+      "head": {
+        "item": "carved_pumpkin"
+      }
+    }
+  }
+}
