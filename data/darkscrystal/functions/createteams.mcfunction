@@ -7,5 +7,5 @@ team modify grottan color aqua
 team modify grottan prefix [{"text":"Gelfling ","color":"white"}]
 
 team add podlings {"text":"Podlings","color":"gold"}
-team modify grottan color gold
-team modify grottan prefix [{"text":"Podling ","color":"white"}]
+team modify podlings color gold
+team modify podlings prefix [{"text":"Podling ","color":"white"}]
