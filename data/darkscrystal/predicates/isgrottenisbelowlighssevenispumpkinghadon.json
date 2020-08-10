@@ -1,21 +1,32 @@
 {
-  "condition": "minecraft:entity_properties",
-  "entity": "this",
-  "predicate": {
-    "team": "grottan",
-    "location": {
-      "dimension": "minecraft:overworld",
-      "light": {
-        "light": {
-          "min": 0,
-          "max": 7
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:player",
+        "team": "grotton",
+        "location": {
+          "light": {
+            "light": {
+              "min": 0,
+              "max": 7
+            }
+          }
         }
       }
     },
-    "equipment": {
-      "head": {
-        "item": "carved_pumpkin"
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "head": {
+            "item": "carved_pumpkin"
+          }
+        }
       }
     }
-  }
+  ]
 }
