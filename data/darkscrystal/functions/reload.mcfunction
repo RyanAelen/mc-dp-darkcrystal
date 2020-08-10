@@ -1,3 +1,4 @@
 function darkscrystal:removeteams
 function darkscrystal:createteams
 function darkscrystal:boysjointeam
+function darkscrystal:addspeciesscoreboard
